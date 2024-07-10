@@ -1,6 +1,17 @@
 /* shared styles */
-.dev-box-info .dev-btn{
-    display: block;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 6px 10px;
+.description-color {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.title-color {
+  color: rgb(13, 19, 33);
+}
+.dev-box-info .dev-btn {
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 6px 10px;
 }

@@ -1,151 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* global styles */
-main>section{
-    max-width: 1220px;
-    margin: 50px auto;
+body {
+  font-family: "Azeret Mono", monospace;
+}
+main > section {
+  max-width: 1220px;
+  margin: 50px auto;
 }
 /* banner styles */
-.banner{
-    margin: 0 auto;
-    background: url("../assets/Hero-bg.png") no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url("../assets/Hero-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-.banner .banner-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 30px 60px;
-    text-align: center;
+.banner .banner-container {
+  margin: 0 auto;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+  text-align: center;
 }
-.banner .banner-container .banner-title{
-    font-weight: 900;
+.banner .banner-container .banner-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
 }
-.banner .banner-container .banner-btn{
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 8px 10px;
-    border-radius: 6px;
+.banner .banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.banner .banner-container .banner-btn {
+  background-color: #000;
+  border: none;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.banner .banner-container .banner-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
 }
 
 /* why web dev section style*/
-.web-dev{
-    background-color: #fbfbfb;
-
-    padding: 80px 40px;
-    border-radius: 24px;
+.web-dev {
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 40px;
+  border-radius: 24px;
 }
 .dev-header {
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1120px;
+  padding: 30px 60px;
 }
-.dev-header .dev-title{
-    font-size: 48px;
+.dev-header .dev-title {
+  font-size: 48px;
 }
 
-.dev-header .dev-description{
-    margin-block: 20px;    
+.dev-header .dev-description {
+  margin-block: 20px;
 }
-.dev-content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.dev-content {
+    max-width: 1120px;
+ 
+margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .dev-box-1,
 .dev-box-2,
-.dev-box-3{
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    border-radius: 16px;
-
+.dev-box-3 {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 64px;
+  border-radius: 16px;
 }
-.dev-box-info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    max-width: 700px;
+.dev-box-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  max-width: 700px;
 }
-.dev-box-info a{
-    color: gray;
-    text-decoration: none;
+.dev-box-info a {
+  color: gray;
+  text-decoration: none;
 }
 /* my inspiration styles  */
-.inspiration{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .inspiration-container,
-.current-target-header{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.current-target-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 64px;
 }
-.inspiration-video{
-    border: 1px solid #7e7e7e;
-    padding: 40px 35px ;
-    border-radius: 24px;
+.inspiration-video {
+  border: 1px solid #7e7e7e;
+  padding: 40px 35px;
+  border-radius: 24px;
 }
-.inspiration-video video{
-    width: 100%;
-    border-radius: 16px;
+.inspiration-video video {
+  width: 100%;
+  border-radius: 16px;
 }
 /* my targer section styles  */
-.current-target{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.current-target {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
-.current-target-content{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.current-target-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
- .target-box-1, .target-box-2, .target-box-3{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    padding:30px;
-    border-radius: 16px;
+.target-box-1,
+.target-box-2,
+.target-box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 16px;
 }
-.target-box-1{
-    background-color: #ffe2e2;
+.target-box-1 {
+  background-color: #ffe2e2;
 }
-.target-box-2{
-    background-color: #e5e2ff;
+.target-box-2 {
+  background-color: #e5e2ff;
 }
-.target-box-3{
-    background-color: #feffe2;
+.target-box-3 {
+  background-color: #feffe2;
 }
-.current-target-content img{
-    display: block;
-    width: 50px;
-    height: 50px;
+.current-target-content img {
+  display: block;
+  width: 50px;
+  height: 50px;
 }
 .current-target-content button {
-    border:   none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
-.current-target-content button a{
-    color: #000;
-    font-size: larger;
-    font-weight: 700;
+.current-target-content button a {
+  color: #000;
+  font-size: larger;
+  font-weight: 700;
 }
-/*  */
+/* support section style */
+.support-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: url("../assets/handshake.jpg") center center no-repeat;
+  background-size: cover;
+  height: 320px;
+  color: white;
+  border-radius: 24px;
+}
+.support-email-box > input[type="email"],
+input[type="submit"] {
+  padding: 16px 24px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: larger;
+}
+.support-email-box input[type="submit"] {
+  font-weight: 600;
+}
