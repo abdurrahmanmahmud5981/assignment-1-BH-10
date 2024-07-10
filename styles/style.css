@@ -86,12 +86,16 @@ main>section{
 }
 /* my inspiration styles  */
 .inspiration{
-    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 40px;
-   
-    
+}
+.inspiration-container,
+.current-target-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .inspiration-video{
     border: 1px solid #7e7e7e;
@@ -102,5 +106,46 @@ main>section{
     width: 100%;
     border-radius: 16px;
 }
-/*  */
+/* my targer section styles  */
+.current-target{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.current-target-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+ .target-box-1, .target-box-2, .target-box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding:30px;
+    border-radius: 16px;
+}
+.target-box-1{
+    background-color: #ffe2e2;
+}
+.target-box-2{
+    background-color: #e5e2ff;
+}
+.target-box-3{
+    background-color: #feffe2;
+}
+.current-target-content img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.current-target-content button {
+    border:   none;
+    background-color: transparent;
+}
+.current-target-content button a{
+    color: #000;
+    font-size: larger;
+    font-weight: 700;
+}
 /*  */
