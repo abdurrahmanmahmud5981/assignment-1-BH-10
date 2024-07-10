@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Assignment</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/shared-style.css">
   </head>
   <body>
     <header>
@@ -53,7 +54,9 @@
                 </p>
                 <button><a href="#">Learn More</a></button>
               </div>
-              <div class="dev-box-image">img</div>
+              <div class="dev-box-image">
+                <img src="./assets/dev-img-1.png" alt="web-dev-image-1" />
+              </div>
             </div>
             <div class="dev-box-2">
               <div class="dev-box-info">
@@ -65,9 +68,11 @@
                   Praesentium nesciunt molestias omnis, deleniti consequuntur
                   dolorum?
                 </p>
-                <button><a href="#">Learn More</a></button>
+                <button class="dev-btn"><a href="#">Learn More</a></button>
               </div>
-              <div class="dev-box-image">img</div>
+              <div class="dev-box-image">
+                <img src="./assets/dev-img-2.png" alt="web-dev-image-2" />
+              </div>
             </div>
             <div class="dev-box-3">
               <div class="dev-box-info">
@@ -79,9 +84,11 @@
                   Praesentium nesciunt molestias omnis, deleniti consequuntur
                   dolorum?
                 </p>
-                <button><a href="#">Learn More</a></button>
+                <button class="dev-btn"><a href="#">Learn More</a></button>
               </div>
-              <div class="dev-box-image">img</div>
+              <div class="dev-box-image">
+                <img src="./assets/dev-img-3.png" alt="web-dev-image-3" />
+              </div>
             </div>
           </div>
         </div>
@@ -101,65 +108,78 @@
         </div>
       </section>
       <!-- My Inspiration section end -->
-       <!-- My Current Target section start -->
-         <section class="current-target">
-            <div class="current-target-container">
-                <div class="current-target-header">
-                    <h1 class="target-header-title">
-                        My Current Target
-                    </h1>
-                    <p class="target-header-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis libero facere sapiente consequatur error.
-                    </p>
-
-                </div>
-            </div>
-            <div class="current-target-content">
-                <div class="target-box-1">
-                    <img src="./assets/html.png" alt="HTML Image ">
-                    <h3 class="target-title">HTML </h3>
-                    <p class="target-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, autem?</p>
-                    <button><a href="#">Learn More </a></button>
-                </div>
-                <div class="target-box-2">
-                    <img src="./assets/css.png" alt="CSS ">
-                    <h3 class="target-title">CSS </h3>
-                    <p class="target-box-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cupiditate?`</p>
-                    <button><a href="#">Learn More</a></button>
-                </div>
-                <div class="target-box-3">
-                    <img src="./assets/js.png" alt="JavaScript">
-                    <h3 class="target-title">JavaScript</h3>
-                    <p class="target-box-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, magnam!</p>
-                    <button><a href="#">Learn More </a></button>
-                </div>
-            </div>
-         </section>
-       <!-- My Current Target section end -->
-        <!-- Support section start -->
-         <section class="support">
-            <div class="support-container">
-                <h1 class="support-title">
-                    I need Support
-                </h1>
-                <p class="support-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsa nostrum voluptates eaque, asperiores rerum.
-                </p>
-                <div class="support-email-box">
-                    <input type="email" name="email" id="email" placeholder="Suggest me any feedback for me">
-                    <input type="submit" value="Submit">
-                </div>
-            </div>
-         </section>
-        <!-- Support section end -->
+      <!-- My Current Target section start -->
+      <section class="current-target">
+        <div class="current-target-container">
+          <div class="current-target-header">
+            <h1 class="target-header-title">My Current Target</h1>
+            <p class="target-header-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              nobis libero facere sapiente consequatur error.
+            </p>
+          </div>
+        </div>
+        <div class="current-target-content">
+          <div class="target-box-1">
+            <img src="./assets/html.png" alt="HTML Image " />
+            <h3 class="target-title">HTML</h3>
+            <p class="target-box-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              autem?
+            </p>
+            <button class="dev-btn"><a href="#">Learn More </a></button>
+          </div>
+          <div class="target-box-2">
+            <img src="./assets/css.png" alt="CSS " />
+            <h3 class="target-title">CSS</h3>
+            <p class="target-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, cupiditate?`
+            </p>
+            <button><a href="#">Learn More</a></button>
+          </div>
+          <div class="target-box-3">
+            <img src="./assets/js.png" alt="JavaScript" />
+            <h3 class="target-title">JavaScript</h3>
+            <p class="target-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+              magnam!
+            </p>
+            <button><a href="#">Learn More </a></button>
+          </div>
+        </div>
+      </section>
+      <!-- My Current Target section end -->
+      <!-- Support section start -->
+      <section class="support">
+        <div class="support-container">
+          <h1 class="support-title">I need Support</h1>
+          <p class="support-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsa
+            nostrum voluptates eaque, asperiores rerum.
+          </p>
+          <div class="support-email-box">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Suggest me any feedback for me"
+            />
+            <input type="submit" value="Submit" />
+          </div>
+        </div>
+      </section>
+      <!-- Support section end -->
     </main>
     <footer>
-        <div id="footer">
-            <div class="footer-info"></div>
-            <div class="footer-soicle-link">
-                <a href=""><img src="./assets/linkedin-icon 1.png" alt=""></a><a href=""><img src="./assets/facebook.png" alt="Facebook" ></a><a href=""><img src="./assets/github.png" alt="github"></a>
-            </div>
+      <div id="footer">
+        <div class="footer-info"></div>
+        <div class="footer-soicle-link">
+          <a href=""><img src="./assets/linkedin-icon 1.png" alt="" /></a
+          ><a href=""><img src="./assets/facebook.png" alt="Facebook" /></a
+          ><a href=""><img src="./assets/github.png" alt="github" /></a>
         </div>
+      </div>
     </footer>
   </body>
 </html>
