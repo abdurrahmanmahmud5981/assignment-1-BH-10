@@ -15,7 +15,7 @@ main > section {
 }
 /* banner styles */
 .banner {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   background: url("../assets/Hero-bg.png") no-repeat;
   background-size: cover;
@@ -214,7 +214,6 @@ main > section {
   background-size: cover;
   height: 320px;
   border-radius: 16px;
-  
 }
 .support-title {
   color: rgb(255, 255, 255);
@@ -251,4 +250,24 @@ input[type="text"] {
 .support-email-box input[type="submit"] {
   font-weight: 600;
   cursor: pointer;
+}
+
+/* footer section styles */
+footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+#footer {
+  margin: 0 auto;
+  max-width: 1220px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer-soicle-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
